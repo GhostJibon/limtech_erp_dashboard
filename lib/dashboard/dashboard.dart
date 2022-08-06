@@ -4,7 +4,13 @@ class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [],
+      children: [
+        Row(
+          children: [
+            Text(''),
+          ],
+        )
+      ],
     );
   }
 }
