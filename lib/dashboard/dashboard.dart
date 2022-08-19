@@ -1,4 +1,5 @@
 import 'package:dashboard/reusable/dbinfo.dart';
+import 'package:dashboard/reusable/profilepic.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -47,18 +48,7 @@ class Dashboard extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Container(
-                        height: 8.5.h,
-                        width: 8.5.h,
-                        child: CircleAvatar(
-                          backgroundColor: Colors.indigo[800],
-                          child: Icon(
-                            Icons.person,
-                            color: Colors.white,
-                            size: 35.0.sp,
-                          ),
-                        ),
-                      ),
+                      ProfilePic('assets/images/profilepic.png', 11.0.w),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.center,
