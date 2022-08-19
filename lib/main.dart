@@ -1,4 +1,5 @@
 import 'package:dashboard/dashboard/dashboard.dart';
+import 'package:dashboard/profile/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
             return MaterialApp(
               debugShowCheckedModeBanner: false,
               theme: ThemeData.light(),
-              home: Dashboard(),
+              home: Profile(),
             );
           },
         );
